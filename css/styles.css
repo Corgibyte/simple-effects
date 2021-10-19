@@ -32,3 +32,8 @@ img {
   background-color: white;
   color: black;
 }
+
+.paragraph-click{
+  background-color: red;
+  border-style: solid;
+}

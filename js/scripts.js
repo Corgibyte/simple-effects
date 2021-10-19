@@ -9,21 +9,21 @@ $(document).ready(function() {
     $("#answer-text-life").fadeToggle();    
   });
 
-    $("#clickable-speed").click(function() {
-      $("#answer-text-speed").fadeToggle();    
-    });
+  $("#clickable-speed").click(function() {
+    $("#answer-text-speed").fadeToggle();    
+  });
 
-    $(".to-dark").click(function() {
-      $(".toggle-button").removeClass("to-dark");
-      $(".toggle-button").addClass("to-light");
-      $("body").removeClass();
-      $("body").addClass("dark");
-    });
+  $(".to-dark").click(function() {
+    $("body").removeClass();
+    $("body").addClass("dark");
+  });
 
-    $(".to-light").click(function() {
-      $(".toggle-button").removeClass("to-light");
-      $(".toggle-button").addClass("to-dark");
-      $("body").removeClass();
-      $("body").addClass("light");
-    });
+  $(".to-light").click(function() {
+    $("body").removeClass();
+    $("body").addClass("light");
+  });
+
+  $("p").click(function() {
+    $("p").addClass("paragraph-click");
+  });
 });
